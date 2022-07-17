@@ -24,3 +24,5 @@ fields:
   name: type
   label: type
   default: post
+pages:
+- content/mssql-get-current-schema-and-stored-procedure-name-when-executing-stored-procedure.md
