@@ -3,7 +3,7 @@ disqusShortname = ""
 languageCode = "en-us"
 paginate = "5"
 summaryLength = "10"
-theme = "github.com/themefisher/northendlab-hugo"
+theme = "northendlab-hugo"
 title = "Hugo Northendlab Forestry starter"
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
