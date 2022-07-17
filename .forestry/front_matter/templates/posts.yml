@@ -4,22 +4,37 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
+    min: 10
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    required: true
+  default: now
 - type: text
   name: author
-  label: author
+  label: Author
+  config:
+    required: true
+  default: Ganesh Agrawal
 - type: text
   name: authorTwitter
-  label: authorTwitter
+  label: Author's Twitter
+  default: imganeshagrawal
+  config:
+    required: false
 - type: text
   name: cover
   label: cover
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  config:
+    use_select: false
+    min: 1
 - type: list
   name: keywords
   label: keywords
@@ -28,10 +43,15 @@ fields:
   label: description
 - type: boolean
   name: showFullContent
-  label: showFullContent
+  label: Show Full Content
+  hidden: true
+  default: false
 - type: boolean
   name: readingTime
-  label: readingTime
+  label: Reading Time
+  hidden: true
+  default: true
 - type: boolean
   name: hideComments
-  label: hideComments
+  label: Hide Comments
+  default: false
