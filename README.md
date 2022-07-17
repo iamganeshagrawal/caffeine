@@ -10,7 +10,7 @@ hugo server
 
 ## Deployment and hosting
 
-1. Set the build command to: `hugo --gc --minify`
+1. Set the build command to: `hugo --gc --minify -b $CF_PAGES_URL`
 2. Set the publish directory to: `public`
 3. Make sure to set `HUGO_VERSION` to 0.58.2 or above (tested with 0.75.1)
 3. Set the publish directory to: `public`

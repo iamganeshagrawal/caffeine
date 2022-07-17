@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/03e4d452-8b9f-4983-8189-2137391d8a86
 sections:
 - type: directory
-  path: content
+  path: content/posts
   label: Post
   create: documents
   match: "*.md"
